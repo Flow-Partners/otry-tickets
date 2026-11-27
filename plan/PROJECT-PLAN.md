@@ -8,13 +8,13 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 
 **Stack:** .NET 8 API (Controllers → Services → Repositories, DTOs only), Angular 19+ standalone UI, **SQL Server 2008 R2**. Additive, idempotent migrations; no OFFSET/FETCH, CONCAT, IIF, THROW or SEQUENCE.
 
-**Size:** 28 modules, 71 stories, 197 tasks, 1974 estimated hours.
+**Size:** 28 modules, 72 stories, 199 tasks, 1986 estimated hours.
 
 ## 2. Sprint plan (2-week sprints from 2026-11-30)
 
 | Sprint | Dates | Modules | Tasks | Hours |
 |--------|-------|---------|-------|-------|
-| S0 | 2026-11-30 to 2026-12-13 | Foundation & Environment, Users, Roles & Access, Project Management & Handover | 23 | 173.5 |
+| S0 | 2026-11-30 to 2026-12-13 | Foundation & Environment, Users, Roles & Access, Project Management & Handover | 25 | 185.5 |
 | S1 | 2026-12-14 to 2026-12-27 | Product Management, Multiple Barcodes, Suppliers, Price Change History, Audit Log | 35 | 292 |
 | S2 | 2026-12-28 to 2027-01-10 | Stock Management, Sales / Billing, Bill History, Price Checker, Settings & Receipts | 36 | 352.5 |
 | S3 | 2027-01-11 to 2027-01-24 | Barcode Printing, Purchase Suggestions, Purchase Orders & Receiving, Low / Out-of-Stock | 20 | 219.5 |
@@ -29,7 +29,7 @@ Hours are effort estimates, not calendar time. A sprint holds as much work as th
 
 | Ticket | Module | Priority | Sprint | Hours | Depends on |
 |--------|--------|----------|--------|-------|------------|
-| [T-0001](../tickets/T-0001.md) | Foundation & Environment | P0 | S0 | 51 | - |
+| [T-0001](../tickets/T-0001.md) | Foundation & Environment | P0 | S0 | 63 | - |
 | [T-0002](../tickets/T-0002.md) | Users, Roles & Access | P0 | S0 | 106.5 | FND |
 | [T-0003](../tickets/T-0003.md) | Product Management | P0 | S1 | 111 | FND, ACC |
 | [T-0004](../tickets/T-0004.md) | Multiple Barcodes | P0 | S1 | 50.5 | PRD |
