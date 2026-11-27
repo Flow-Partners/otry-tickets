@@ -28,7 +28,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0013](tickets/T-0013.md) | Purchase Suggestions | P1 | Done | S3 | 100% | unassigned |
 | [T-0014](tickets/T-0014.md) | Purchase Orders & Receiving | P0 | In Progress | S3 | 89% | unassigned |
 | [T-0015](tickets/T-0015.md) | Low / Out-of-Stock | P1 | Done | S3 | 100% | unassigned |
-| [T-0016](tickets/T-0016.md) | Expiry Dates & Batches | P1 | Todo | S4 | 0% | unassigned |
+| [T-0016](tickets/T-0016.md) | Expiry Dates & Batches | P1 | In Progress | S4 | 83% | unassigned |
 | [T-0017](tickets/T-0017.md) | Returns & Refunds | P1 | Done | S4 | 100% | unassigned |
 | [T-0018](tickets/T-0018.md) | Customer Credit (Khata) | P1 | Done | S4 | 100% | unassigned |
 | [T-0019](tickets/T-0019.md) | Daily Cash Closing | P1 | Todo | S4 | 0% | unassigned |
