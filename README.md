@@ -22,12 +22,12 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0007](tickets/T-0007.md) | Audit Log | P1 | Done | S1 | 100% | unassigned |
 | [T-0008](tickets/T-0008.md) | Stock Management | P0 | In Progress | S2 | 96% | unassigned |
 | [T-0009](tickets/T-0009.md) | Sales / Billing | P0 | In Progress | S2 | 98% | unassigned |
-| [T-0010](tickets/T-0010.md) | Bill History | P1 | Todo | S2 | 0% | unassigned |
+| [T-0010](tickets/T-0010.md) | Bill History | P1 | In Progress | S2 | 94% | unassigned |
 | [T-0011](tickets/T-0011.md) | Price Checker | P2 | Done | S2 | 100% | unassigned |
 | [T-0012](tickets/T-0012.md) | Barcode Printing | P2 | In Progress | S3 | 84% | unassigned |
-| [T-0013](tickets/T-0013.md) | Purchase Suggestions | P1 | Todo | S3 | 0% | unassigned |
+| [T-0013](tickets/T-0013.md) | Purchase Suggestions | P1 | Done | S3 | 100% | unassigned |
 | [T-0014](tickets/T-0014.md) | Purchase Orders & Receiving | P0 | In Progress | S3 | 89% | unassigned |
-| [T-0015](tickets/T-0015.md) | Low / Out-of-Stock | P1 | Todo | S3 | 0% | unassigned |
+| [T-0015](tickets/T-0015.md) | Low / Out-of-Stock | P1 | Done | S3 | 100% | unassigned |
 | [T-0016](tickets/T-0016.md) | Expiry Dates & Batches | P1 | Todo | S4 | 0% | unassigned |
 | [T-0017](tickets/T-0017.md) | Returns & Refunds | P1 | Todo | S4 | 0% | unassigned |
 | [T-0018](tickets/T-0018.md) | Customer Credit (Khata) | P1 | Todo | S4 | 0% | unassigned |
