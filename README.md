@@ -31,11 +31,11 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0016](tickets/T-0016.md) | Expiry Dates & Batches | P1 | In Progress | S4 | 83% | unassigned |
 | [T-0017](tickets/T-0017.md) | Returns & Refunds | P1 | Done | S4 | 100% | unassigned |
 | [T-0018](tickets/T-0018.md) | Customer Credit (Khata) | P1 | Done | S4 | 100% | unassigned |
-| [T-0019](tickets/T-0019.md) | Daily Cash Closing | P1 | Todo | S4 | 0% | unassigned |
+| [T-0019](tickets/T-0019.md) | Daily Cash Closing | P1 | Done | S4 | 100% | unassigned |
 | [T-0020](tickets/T-0020.md) | Reports | P1 | Todo | S5 | 0% | unassigned |
 | [T-0021](tickets/T-0021.md) | Automatic Backup | P1 | In Progress | S5 | 88% | unassigned |
 | [T-0022](tickets/T-0022.md) | POS Dashboard | P2 | In Progress | S5 | 89% | unassigned |
-| [T-0023](tickets/T-0023.md) | Offline Mode & PWA | P0 | Todo | S6 | 0% | unassigned |
+| [T-0023](tickets/T-0023.md) | Offline Mode & PWA | P0 | In Progress | S6 | 78% | unassigned |
 | [T-0024](tickets/T-0024.md) | Offline Conflict Handling | P1 | Todo | S6 | 0% | unassigned |
 | [T-0025](tickets/T-0025.md) | Multiple Branches | P1 | Todo | S6 | 0% | unassigned |
 | [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 31% | unassigned |
