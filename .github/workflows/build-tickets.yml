@@ -1,0 +1,33 @@
+name: Build tickets.json
+
+on:
+  push:
+    paths:
+      - 'tickets/**'
+      - 'tools/build-json.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-tickets-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/build-json.mjs
+      - name: Commit tickets.json when it changed
+        run: |
+          if ! git diff --quiet -- tickets.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add tickets.json
+            git commit -m "Rebuild tickets.json"
+            git push
+          fi
