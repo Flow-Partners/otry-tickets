@@ -76,6 +76,15 @@ const meta = [
   { label: 'Built by', value: 'tools/build-json.mjs' },
 ];
 fs.writeFileSync(path.join(root, 'tickets.json'), JSON.stringify({ rows: out, meta }) + '\n');
+// Refresh the board table in README.md (epics only).
+const readmePath = path.join(root, 'README.md');
+if (fs.existsSync(readmePath)) {
+  const epicsOut = out.filter(r => r.type === 'epic');
+  const board = ['| Ticket | Title | Priority | Status | Sprint | % | Assignee |', '|--------|-------|----------|--------|--------|---|----------|',
+    ...epicsOut.map(e => `| [${e.id}](tickets/${e.id}.md) | ${e.title} | ${e.priority} | ${e.status}${e.blocked === 'yes' ? ' (blocked)' : ''} | ${e.sprint} | ${e.percent}% | unassigned |`)].join('\n');
+  const readme = fs.readFileSync(readmePath, 'utf8');
+  fs.writeFileSync(readmePath, readme.replace(/<!-- board:start -->[\s\S]*<!-- board:end -->/, `<!-- board:start -->\n${board}\n<!-- board:end -->`));
+}
 const tasks = out.filter(r => r.type === 'task');
 const total = tasks.reduce((a, r) => a + r.hours, 0), done = tasks.reduce((a, r) => a + r.done_hours, 0);
 console.log(`${out.length} tickets, ${tasks.filter(t => t.status === 'Done').length}/${tasks.length} tasks done, ${Math.round(100 * done / total)}% by hours`);
