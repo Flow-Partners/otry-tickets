@@ -38,7 +38,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0023](tickets/T-0023.md) | Offline Mode & PWA | P0 | Todo | S6 | 0% | unassigned |
 | [T-0024](tickets/T-0024.md) | Offline Conflict Handling | P1 | Todo | S6 | 0% | unassigned |
 | [T-0025](tickets/T-0025.md) | Multiple Branches | P1 | Todo | S6 | 0% | unassigned |
-| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 16% | unassigned |
+| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 18% | unassigned |
 | [T-0027](tickets/T-0027.md) | Project Management & Handover | P1 | In Progress | S7 | 71% | unassigned |
 | [T-0279](tickets/T-0279.md) | Settings & Receipts | P1 | In Progress | S2 | 89% | unassigned |
 <!-- board:end -->
