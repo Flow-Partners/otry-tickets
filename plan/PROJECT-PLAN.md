@@ -8,7 +8,7 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 
 **Stack:** .NET 8 API (Controllers → Services → Repositories, DTOs only), Angular 19+ standalone UI, **SQL Server 2008 R2**. Additive, idempotent migrations; no OFFSET/FETCH, CONCAT, IIF, THROW or SEQUENCE.
 
-**Size:** 28 modules, 73 stories, 202 tasks, 2010 estimated hours.
+**Size:** 28 modules, 74 stories, 203 tasks, 2016 estimated hours.
 
 ## 2. Sprint plan (2-week sprints from 2026-11-30)
 
@@ -19,7 +19,7 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 | S2 | 2026-12-28 to 2027-01-10 | Stock Management, Sales / Billing, Bill History, Price Checker, Settings & Receipts | 36 | 352.5 |
 | S3 | 2027-01-11 to 2027-01-24 | Barcode Printing, Purchase Suggestions, Purchase Orders & Receiving, Low / Out-of-Stock | 20 | 219.5 |
 | S4 | 2027-01-25 to 2027-02-07 | Expiry Dates & Batches, Returns & Refunds, Customer Credit (Khata), Daily Cash Closing | 34 | 382 |
-| S5 | 2027-02-08 to 2027-02-21 | Reports, Automatic Backup, POS Dashboard | 18 | 203.5 |
+| S5 | 2027-02-08 to 2027-02-21 | Reports, Automatic Backup, POS Dashboard | 19 | 209.5 |
 | S6 | 2027-02-22 to 2027-03-07 | Offline Mode & PWA, Offline Conflict Handling, Multiple Branches | 23 | 270.5 |
 | S7 | 2027-03-08 to 2027-03-21 | API QA & Security, Project Management & Handover | 11 | 104.5 |
 
@@ -49,7 +49,7 @@ Hours are effort estimates, not calendar time. A sprint holds as much work as th
 | [T-0018](../tickets/T-0018.md) | Customer Credit (Khata) | P1 | S4 | 115 | BIL, ACC |
 | [T-0019](../tickets/T-0019.md) | Daily Cash Closing | P1 | S4 | 76 | BIL, RET, CRD |
 | [T-0020](../tickets/T-0020.md) | Reports | P1 | S5 | 109 | BIL, RET, PHI, STK, CRD, PO |
-| [T-0021](../tickets/T-0021.md) | Automatic Backup | P1 | S5 | 63 | FND |
+| [T-0021](../tickets/T-0021.md) | Automatic Backup | P1 | S5 | 69 | FND |
 | [T-0022](../tickets/T-0022.md) | POS Dashboard | P2 | S5 | 31.5 | BIL, STK, PO, BKP |
 | [T-0023](../tickets/T-0023.md) | Offline Mode & PWA | P0 | S6 | 84.5 | BIL, PRD, BAR |
 | [T-0024](../tickets/T-0024.md) | Offline Conflict Handling | P1 | S6 | 55 | OFF, STK |
