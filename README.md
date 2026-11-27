@@ -15,7 +15,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 |--------|-------|----------|--------|--------|---|----------|
 | [T-0001](tickets/T-0001.md) | Foundation & Environment | P0 | In Progress (blocked) | S0 | 19% | unassigned |
 | [T-0002](tickets/T-0002.md) | Users, Roles & Access | P0 | Todo (blocked) | S0 | 0% | unassigned |
-| [T-0003](tickets/T-0003.md) | Product Management | P0 | In Progress | S1 | 48% | unassigned |
+| [T-0003](tickets/T-0003.md) | Product Management | P0 | In Progress | S1 | 70% | unassigned |
 | [T-0004](tickets/T-0004.md) | Multiple Barcodes | P0 | Todo | S1 | 0% | unassigned |
 | [T-0005](tickets/T-0005.md) | Suppliers | P1 | Todo | S1 | 0% | unassigned |
 | [T-0006](tickets/T-0006.md) | Price Change History | P1 | Todo | S1 | 0% | unassigned |

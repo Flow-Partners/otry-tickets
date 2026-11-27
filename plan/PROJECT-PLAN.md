@@ -8,14 +8,14 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 
 **Stack:** .NET 8 API (Controllers → Services → Repositories, DTOs only), Angular 19+ standalone UI, **SQL Server 2008 R2**. Additive, idempotent migrations; no OFFSET/FETCH, CONCAT, IIF, THROW or SEQUENCE.
 
-**Size:** 28 modules, 69 stories, 195 tasks, 1964 estimated hours.
+**Size:** 28 modules, 70 stories, 196 tasks, 1968 estimated hours.
 
 ## 2. Sprint plan (2-week sprints from 2026-11-30)
 
 | Sprint | Dates | Modules | Tasks | Hours |
 |--------|-------|---------|-------|-------|
 | S0 | 2026-11-30 to 2026-12-13 | Foundation & Environment, Users, Roles & Access, Project Management & Handover | 23 | 173.5 |
-| S1 | 2026-12-14 to 2026-12-27 | Product Management, Multiple Barcodes, Suppliers, Price Change History, Audit Log | 33 | 282 |
+| S1 | 2026-12-14 to 2026-12-27 | Product Management, Multiple Barcodes, Suppliers, Price Change History, Audit Log | 34 | 286 |
 | S2 | 2026-12-28 to 2027-01-10 | Stock Management, Sales / Billing, Bill History, Price Checker, Settings & Receipts | 36 | 352.5 |
 | S3 | 2027-01-11 to 2027-01-24 | Barcode Printing, Purchase Suggestions, Purchase Orders & Receiving, Low / Out-of-Stock | 20 | 219.5 |
 | S4 | 2027-01-25 to 2027-02-07 | Expiry Dates & Batches, Returns & Refunds, Customer Credit (Khata), Daily Cash Closing | 34 | 382 |
@@ -31,7 +31,7 @@ Hours are effort estimates, not calendar time. A sprint holds as much work as th
 |--------|--------|----------|--------|-------|------------|
 | [T-0001](../tickets/T-0001.md) | Foundation & Environment | P0 | S0 | 51 | - |
 | [T-0002](../tickets/T-0002.md) | Users, Roles & Access | P0 | S0 | 106.5 | FND |
-| [T-0003](../tickets/T-0003.md) | Product Management | P0 | S1 | 101 | FND, ACC |
+| [T-0003](../tickets/T-0003.md) | Product Management | P0 | S1 | 105 | FND, ACC |
 | [T-0004](../tickets/T-0004.md) | Multiple Barcodes | P0 | S1 | 50.5 | PRD |
 | [T-0005](../tickets/T-0005.md) | Suppliers | P1 | S1 | 37.5 | FND |
 | [T-0006](../tickets/T-0006.md) | Price Change History | P1 | S1 | 46.5 | PRD |
