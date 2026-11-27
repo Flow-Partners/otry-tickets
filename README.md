@@ -20,11 +20,11 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0005](tickets/T-0005.md) | Suppliers | P1 | Done | S1 | 100% | unassigned |
 | [T-0006](tickets/T-0006.md) | Price Change History | P1 | Done | S1 | 100% | unassigned |
 | [T-0007](tickets/T-0007.md) | Audit Log | P1 | Done | S1 | 100% | unassigned |
-| [T-0008](tickets/T-0008.md) | Stock Management | P0 | Todo | S2 | 0% | unassigned |
+| [T-0008](tickets/T-0008.md) | Stock Management | P0 | In Progress | S2 | 96% | unassigned |
 | [T-0009](tickets/T-0009.md) | Sales / Billing | P0 | Todo | S2 | 0% | unassigned |
 | [T-0010](tickets/T-0010.md) | Bill History | P1 | Todo | S2 | 0% | unassigned |
-| [T-0011](tickets/T-0011.md) | Price Checker | P2 | Todo | S2 | 0% | unassigned |
-| [T-0012](tickets/T-0012.md) | Barcode Printing | P2 | Todo | S3 | 0% | unassigned |
+| [T-0011](tickets/T-0011.md) | Price Checker | P2 | Done | S2 | 100% | unassigned |
+| [T-0012](tickets/T-0012.md) | Barcode Printing | P2 | In Progress | S3 | 84% | unassigned |
 | [T-0013](tickets/T-0013.md) | Purchase Suggestions | P1 | Todo | S3 | 0% | unassigned |
 | [T-0014](tickets/T-0014.md) | Purchase Orders & Receiving | P0 | Todo | S3 | 0% | unassigned |
 | [T-0015](tickets/T-0015.md) | Low / Out-of-Stock | P1 | Todo | S3 | 0% | unassigned |
@@ -38,7 +38,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0023](tickets/T-0023.md) | Offline Mode & PWA | P0 | Todo | S6 | 0% | unassigned |
 | [T-0024](tickets/T-0024.md) | Offline Conflict Handling | P1 | Todo | S6 | 0% | unassigned |
 | [T-0025](tickets/T-0025.md) | Multiple Branches | P1 | Todo | S6 | 0% | unassigned |
-| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | Todo | S7 | 0% | unassigned |
+| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 8% | unassigned |
 | [T-0027](tickets/T-0027.md) | Project Management & Handover | P1 | In Progress | S7 | 71% | unassigned |
 | [T-0279](tickets/T-0279.md) | Settings & Receipts | P1 | In Progress | S2 | 89% | unassigned |
 <!-- board:end -->

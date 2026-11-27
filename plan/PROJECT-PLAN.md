@@ -8,7 +8,7 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 
 **Stack:** .NET 8 API (Controllers → Services → Repositories, DTOs only), Angular 19+ standalone UI, **SQL Server 2008 R2**. Additive, idempotent migrations; no OFFSET/FETCH, CONCAT, IIF, THROW or SEQUENCE.
 
-**Size:** 28 modules, 72 stories, 199 tasks, 1986 estimated hours.
+**Size:** 28 modules, 73 stories, 202 tasks, 2010 estimated hours.
 
 ## 2. Sprint plan (2-week sprints from 2026-11-30)
 
@@ -21,7 +21,7 @@ A web POS for a grocery store covering 23 features: products, multiple barcodes,
 | S4 | 2027-01-25 to 2027-02-07 | Expiry Dates & Batches, Returns & Refunds, Customer Credit (Khata), Daily Cash Closing | 34 | 382 |
 | S5 | 2027-02-08 to 2027-02-21 | Reports, Automatic Backup, POS Dashboard | 18 | 203.5 |
 | S6 | 2027-02-22 to 2027-03-07 | Offline Mode & PWA, Offline Conflict Handling, Multiple Branches | 23 | 270.5 |
-| S7 | 2027-03-08 to 2027-03-21 | API QA & Security, Project Management & Handover | 8 | 80.5 |
+| S7 | 2027-03-08 to 2027-03-21 | API QA & Security, Project Management & Handover | 11 | 104.5 |
 
 Hours are effort estimates, not calendar time. A sprint holds as much work as the team can deliver in two weeks; if the team has fewer hours per sprint than the table shows, the plan stretches proportionally. Confirm team size and weekly capacity to turn this into a delivery date.
 
@@ -54,7 +54,7 @@ Hours are effort estimates, not calendar time. A sprint holds as much work as th
 | [T-0023](../tickets/T-0023.md) | Offline Mode & PWA | P0 | S6 | 84.5 | BIL, PRD, BAR |
 | [T-0024](../tickets/T-0024.md) | Offline Conflict Handling | P1 | S6 | 55 | OFF, STK |
 | [T-0025](../tickets/T-0025.md) | Multiple Branches | P1 | S6 | 131 | STK, BIL, ACC, PO, CSH |
-| [T-0026](../tickets/T-0026.md) | API QA & Security | P0 | S7 | 44.5 | PRD, BIL, PO, RET, CRD, CSH, RPT, OFF, BRN |
+| [T-0026](../tickets/T-0026.md) | API QA & Security | P0 | S7 | 68.5 | PRD, BIL, PO, RET, CRD, CSH, RPT, OFF, BRN |
 | [T-0027](../tickets/T-0027.md) | Project Management & Handover | P1 | S7 | 52 | FND |
 | [T-0279](../tickets/T-0279.md) | Settings & Receipts | P1 | S2 | 60 | FND, ACC |
 
