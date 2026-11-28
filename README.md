@@ -13,7 +13,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 <!-- board:start -->
 | Ticket | Title | Priority | Status | Sprint | % | Assignee |
 |--------|-------|----------|--------|--------|---|----------|
-| [T-0001](tickets/T-0001.md) | Foundation & Environment | P0 | In Progress (blocked) | S0 | 63% | unassigned |
+| [T-0001](tickets/T-0001.md) | Foundation & Environment | P0 | In Progress | S0 | 64% | unassigned |
 | [T-0002](tickets/T-0002.md) | Users, Roles & Access | P0 | In Progress (blocked) | S0 | 94% | unassigned |
 | [T-0003](tickets/T-0003.md) | Product Management | P0 | In Progress | S1 | 92% | unassigned |
 | [T-0004](tickets/T-0004.md) | Multiple Barcodes | P0 | In Progress | S1 | 85% | unassigned |
@@ -38,7 +38,7 @@ Tickets, plans and status for the Orty project, kept as Markdown files. Git is t
 | [T-0023](tickets/T-0023.md) | Offline Mode & PWA | P0 | In Progress | S6 | 78% | unassigned |
 | [T-0024](tickets/T-0024.md) | Offline Conflict Handling | P1 | Done | S6 | 100% | unassigned |
 | [T-0025](tickets/T-0025.md) | Multiple Branches | P1 | Done | S6 | 100% | unassigned |
-| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 41% | unassigned |
-| [T-0027](tickets/T-0027.md) | Project Management & Handover | P1 | In Progress | S7 | 71% | unassigned |
+| [T-0026](tickets/T-0026.md) | API QA & Security | P0 | In Progress | S7 | 83% | unassigned |
+| [T-0027](tickets/T-0027.md) | Project Management & Handover | P1 | In Progress | S7 | 94% | unassigned |
 | [T-0279](tickets/T-0279.md) | Settings & Receipts | P1 | Done | S2 | 100% | unassigned |
 <!-- board:end -->
